@@ -1,0 +1,38 @@
+# Site settings
+title: bibu.se
+
+email: info@rabash.se
+description: ""
+baseurl: ""
+twitter_username: rabashwebb
+github_username:  p-jo
+
+# Build settings
+markdown: kramdown
+relative_permalinks: true
+permalink: pretty
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "story"
+  -
+    scope:
+      path: "event"
+      type: "posts"
+    values:
+      layout: "event"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+
+# Settings
+exclude:  [".sass-cache", "bower_components"]
