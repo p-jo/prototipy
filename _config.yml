@@ -1,7 +1,7 @@
 # Site settings
-title: bibu.se
+title: Site name
 
-email: info@rabash.se
+email: support@rabash.se
 description: ""
 baseurl: ""
 twitter_username: rabashwebb
@@ -19,7 +19,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: "story"
+      layout: "article"
   -
     scope:
       path: "event"
@@ -33,6 +33,19 @@ defaults:
     values:
       layout: "page"
 
+# Multilingual settings
+# See https://github.com/tristen/multilingual
+# permalink: /:categories/:title
+# languages:
+#   - name: 'English'
+#     key: 'en'
+#   - name: 'Español'
+#     key: 'es'
+
+# Prose settings
+# See https://github.com/prose/prose/wiki
+prose:
+  rooturl: '_posts'
 
 # Settings
 exclude:  [".sass-cache", "bower_components"]
