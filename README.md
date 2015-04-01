@@ -15,6 +15,11 @@ Kör med
 jekyll serve -w
 ```
 
+Guider  
+http://jekyllrb.com/docs/  
+https://github.com/shopify/liquid/wiki/Liquid-for-Designers  
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
 ## Bootstrap
 http://getbootstrap.com
 
