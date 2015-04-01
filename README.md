@@ -30,7 +30,7 @@ bower install bootstrap-sass
 
 ## Plugins
 Installera plugins med Bower: http://bower.io  
-Flytta de filer som används till mappen `assets`
+Flytta de filer som används till mappen `assets`  
 Sassfiler kompileras automatiskt av Jekyll om de läggs i `_sass` med en fil för att inkludera dem i `css`  
 Gör mindre css-tillägg i filen `_sass/custom.scss`
 
