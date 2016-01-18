@@ -1,21 +1,21 @@
 # prototipy
-Basinstallation för prototyp med Jekyll och Bootstrap Sass
+Web prototype with Jekyll and Bootstrap Sass
 
 ## Jekyll
 http://jekyllrb.com
 
-Installerat med  
+Setup
 ```
 gem install jekyll
 jekyll new prototipy
 ```
 
-Kör med
+Run
 ```
 jekyll serve -w
 ```
 
-### Guider
+### Docs
 http://jekyllrb.com/docs/  
 https://github.com/shopify/liquid/wiki/Liquid-for-Designers  
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
@@ -23,16 +23,16 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 ## Bootstrap
 http://getbootstrap.com
 
-Installerat med  
+Setup  
 ```
 bower install bootstrap-sass
 ```
 
-## Plugins
-Installera plugins med Bower: http://bower.io  
-Flytta de filer som används till mappen `assets`  
-Sassfiler kompileras automatiskt av Jekyll om de läggs i `_sass` med en fil för att inkludera dem i `css`  
-Gör mindre css-tillägg i filen `_sass/custom.scss`
+## Plugins and CSS
+Download plugins with Bower: http://bower.io  
+Move files to `assets` folder  
+Sass files are compiled by Jekyll if they are in the `_sass` folder with a file to include them in `css` 
+Minor changes to css in `_sass/custom.scss`
 
-## Övrigt
-Script för LiveReload inkluderat: http://livereload.com/
+## Misc
+Script for LiveReload included: http://livereload.com/
