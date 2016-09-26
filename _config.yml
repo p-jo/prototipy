@@ -9,7 +9,7 @@ github_username:  p-jo
 
 # Build settings
 markdown: kramdown
-relative_permalinks: true
+relative_permalinks: false
 permalink: pretty
 
 # Defaults
